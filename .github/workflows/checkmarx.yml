@@ -28,7 +28,6 @@ jobs:
         checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
         incremental: false
         break_build: false
-        bug_tracker: GITHUBPULL
 
     # Upload SARIF report for CodeQL / Security Alerts PRocessing
     - name: Upload SARIF file
